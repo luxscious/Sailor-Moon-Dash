@@ -1,0 +1,583 @@
+header{
+	background-color:#FAB0D1;
+	color: white	;
+	padding: ;
+	font-size: 30px;
+	border-radius: 10px;
+}
+
+
+header h2{
+	display: inline;
+	text-align: right;
+	padding-right: 550px;
+	padding-left: 50px;
+	padding-bottom: 100px;
+
+}
+
+#coolify_me{
+	color: #FAB0D1;
+	font-style:italic;
+	font-weight: bold;
+
+}
+
+#headerImage{
+	width: 400px;
+	height: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+
+
+#characters{
+	position: absolute;
+	height: 202px;
+    width: 265px;
+    background-image: url('../images/characters.png');
+    border-radius: 20px;
+    margin-left: 400px;
+}
+
+#characters2{
+	position: absolute;
+	height: 202px;
+    width: 265px;
+    background-image: url('../images/characters2.png');
+    border-radius: 20px;
+   
+}
+#greyedOut{
+	position: fixed;
+   left: 0px;
+   top: 0px;
+   height: 100%;
+   width: 100%;
+   background-color: black;
+   opacity: 0.5;
+   z-index: 100;
+}
+
+#introShow{
+	margin-left: -94%;
+	margin-top: 40px;
+	position: absolute;
+	border-radius: 20px;
+	background-color: white ;
+}
+
+#stop{
+	margin-left: -85%;
+	margin-top: 40px;
+	position: absolute;
+	border-radius: 20px;
+	background-color: white ;
+
+}
+#play{
+	margin-left: -77%;
+	margin-top: 40px;
+	position: absolute;
+	border-radius: 20px;
+	background-color: white ;
+}
+.continue{
+	color: #FAB0D1;
+	font-style:italic;
+	font-weight: bold;
+	border-radius: 20px;
+	background-color: white ;
+
+}
+
+.highlightMe{
+	color: #FB7BB4 ;
+}
+#intro{
+
+	position: absolute;
+	background-color: white;
+	width: 700px;
+	height: 500px;
+	text-align: center ;
+	display: block;
+	margin-left: 25%;
+	margin-top: 10px;
+	border-radius: 25px;
+	z-index: 300;
+
+
+
+}
+
+html{
+	
+
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+	background-image: url('../images/tokyo.png');
+	background-repeat: none;
+	background-size: 100%;
+	
+
+}
+
+
+
+#register{
+ 	margin:0 auto; 
+	background-color:#FEC307;
+	padding: 20px;
+	width:200px;
+	text-align: center;
+	margin-top: 10px;
+	display:block;
+	border-radius: 10px;
+
+
+}
+
+
+#players{
+
+	background-color:#FFC9ED;
+	padding: 20px;
+	width:30%;
+	display:block ;
+	border-style: solid;
+	border-color:#FF2A4A;
+	border-radius: 10px;
+	margin-left: 32.5%;
+	margin-top: 20px;
+	position: absolute;
+	
+
+
+}
+
+
+.table{
+	width : 100%;
+
+
+
+}
+
+.error{
+	border-color: #FF0000;
+	border-width: 2px;
+	border-style: solid;
+}
+
+td{
+	
+	border-radius: 5px;
+	background-color: white;
+}
+th{
+	color:#02004B;
+	border-style:solid;
+	border-color:#FF2A4A;
+	padding:5px;
+	background-color: #FEC307;
+}
+
+
+#addMe{
+	margin-top: 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+
+
+
+tr:hover td{
+	background-color: #C3FBED;
+	border-color: #C3FBED ;
+}
+
+
+#profiles{
+margin-top: -10%;	
+	z-index:200;
+	position: absolute;
+}
+
+
+#moonProfile{
+
+	border-color:#FFC9ED ;
+	border-style: solid;
+
+}
+#venusProfile{
+
+
+	border-color:#E85000 ;
+	border-style: solid;
+
+
+
+}
+.scoot{
+	margin-left:  250px!important;
+}
+#marsProfile{
+	border-color:#FF0000 ;
+	border-style: solid;
+}
+
+#mercuryProfile{
+	
+	border-color:#20B0E0 ;
+	border-style: solid;
+}
+
+#jupiterProfile{
+	border-color:#089830 ;
+	border-style: solid;
+	width: 420px !important;
+}
+
+
+
+
+#profiles h3{
+
+
+	text-align: center;
+
+	
+}
+
+#profiles p{
+
+	
+	text-align: center;
+
+	
+}
+
+#profiles div{
+
+	background-color: white;
+	display:inline-block;	
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 40px;
+	width: 400px;
+	border-radius: 20px;
+
+
+	
+}
+
+
+.betButton{
+	border-radius: 20px;
+	background-color: white ;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	
+}
+#moon1,#moon2{
+
+	border-radius: 30px;
+	border-color:#FFC9ED;
+	border-width: 10px;
+	border-style: solid;
+	margin-top: 10px;
+	margin-left: 65px;
+
+
+
+	
+}
+
+#myCanvas{
+
+	
+	background-image: url('../images/pretty.png');
+
+	background-size: 100%;
+	border-style: solid;
+	border-color: #9BAFDF;	
+	border-width: 2px;
+	margin-top: 10px;
+	margin-left: 35%;
+	z-index: 300;
+	position: absolute;
+	
+}
+
+
+
+
+
+#mars1,#mars2{
+
+	border-radius: 30px;
+	border-color:#FF0000;
+	border-width: 10px;
+	border-style: solid;
+	margin-top: 10px;
+	margin-left: 65px;
+
+
+	
+}
+#mercury1,#mercury2{
+
+	border-radius: 30px;
+	border-color:#20B0E0;
+	border-width: 10px;
+	border-style: solid;
+	margin-top: 10px;
+	margin-left: 65px;
+
+
+	
+}
+
+#venus1,#venus2{
+
+	border-radius: 30px;
+	border-color:#E85000;
+	border-width: 10px;
+	border-style: solid;
+	margin-top: 10px;
+	margin-left:65px;
+
+
+	
+}
+
+#jupiter1,#jupiter2{
+
+	border-radius: 30px;
+	border-color:#089830;
+	border-width: 10px;
+	border-style: solid;
+	margin-top: 10px;
+	margin-left: 70px;
+
+
+
+	
+}
+
+
+#exitProfiles{
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 30px;
+	font-size: 15px;
+	color: white;
+	border-radius: 20px;
+	background-color:black ;
+}
+
+
+
+#betting{
+	margin-top:-20% ;
+	z-index:210;
+	position: absolute;
+}
+
+
+
+
+#betMoon{
+
+	border-color:#FFC9ED ;
+	border-style: solid;
+	margin-left: 0 !important;
+	margin-top: -10px !important;
+
+
+
+}
+#betVenus{
+	margin-left: 0 !important;
+	margin-top: -10px !important;
+	border-color:#E85000 ;
+	border-style: solid;
+
+}
+#betMars{
+	border-color:#FF0000 ;
+	border-style: solid;
+	margin-left: 0 !important;
+	margin-top: -10px !important;}
+
+#betMercury{
+	
+	border-color:#20B0E0 ;
+	border-style: solid;
+	margin-left: 0 !important;
+	margin-top: -10px !important;;
+}
+
+#betJupiter{
+	border-color:#089830 ;
+	border-style: solid;
+	margin-left: 0 !important;
+	margin-top: -10px !important;
+	width: 420px !important;
+}
+
+.showTable{
+
+	z-index: 210;
+	position: absolute;
+	margin-left: 33% !important;
+
+
+}
+
+.profileBet{
+	
+	margin-left: 0 !important ;
+
+}
+
+#emptyWin{
+
+	width: 400px;
+	height: 675px;
+	background-color: white;
+	position: absolute;
+	z-index: 200;
+	margin-left: 25px;
+	border-radius: 20px;
+
+	text-align: center;
+}
+
+#moonWin, #marsWin,#mercuryWin,#jupiterWin,#venusWin{
+
+	width: 400px;
+	height: 675px auto;
+	background-color: white;
+	position: absolute;
+	z-index: 200;
+	margin-left: 25px;
+	border-radius: 20px;
+	text-align: center;
+	display:inline-block;
+
+
+
+
+}
+
+#victorymoon1,#victorymoon2{
+
+	border-radius: 30px;
+	border-color:#FFC9ED;
+	border-width: 10px;
+	border-style: solid;
+	margin-top: 10px;
+
+
+
+
+	
+}
+
+#victorymars1,#victorymars2{
+
+	border-radius: 30px;
+	border-color:#FF0000;
+	border-width: 10px;
+	border-style: solid;
+	margin-top: 10px;
+	
+
+
+	
+}
+#victorymercury1,#victorymercury2{
+
+	border-radius: 30px;
+	border-color:#20B0E0;
+	border-width: 10px;
+	border-style: solid;
+	margin-top: 10px;
+	
+
+
+	
+}
+
+#victoryvenus1,#victoryvenus2{
+
+	border-radius: 30px;
+	border-color:#E85000;
+	border-width: 10px;
+	border-style: solid;
+	margin-top: 10px;
+
+
+
+	
+}
+
+#victoryjupiter1,#victoryjupiter2{
+
+	border-radius: 30px;
+	border-color:#089830;
+	border-width: 10px;
+	border-style: solid;
+	margin-top: 10px;
+	
+
+
+
+	
+}
+
+#mysteryscout{
+
+	border-radius: 30px;
+	border-color:#858585;
+	border-width: 10px;
+	border-style: solid;
+	margin-top: 10px;
+
+	width:256px ;
+	height:192px;
+	
+}
+
+#results{
+	display: block;
+}
+
+
+
+#race{
+	 
+	 margin-left: 47%;
+	 margin-top: -45px;
+	
+	 padding: 10px;
+
+}
+
+.betButton:hover{
+	background-color: #77C6F3;
+	color: #114FDD;
+
+	font-weight: bold;
+}
+
+
+
+
+

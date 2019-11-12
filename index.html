@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sailor Moon Dash</title>
+	
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="images/moon.png" />
+</head>
+<body>
+
+	<header>
+			
+
+		<h2>Sailor Moon Dash</h2>
+		<img src="images/header.jpg" id = "headerImage">
+		<input type="button" value="Intro Message" id ="introShow"	 >
+		<input type="button" value="Stop Music" id ="stop">
+		<input type="button" value="Play Music" id ="play">
+		<input type="button" name="startRace" id = 'race' class = 'betButton' value="Start Race"> 
+
+
+
+
+	<audio autoplay loop>
+		<source src="music/ost.mp3" type="audio/mpeg">
+		
+		Your browser does not support the audio tag.
+		</audio>
+
+
+
+	</header>
+
+
+
+
+	<div id ="intro">
+
+		<h3>Sailor Moon Dash</h3>
+		<p>Welcome to <span id = 'coolify_me'> Sailor Moon Dash</span>, where the sailor scouts race to the finish line!
+		<h4>Back Story</h4>
+		One day, after fighting off the evil that spawned in Tokyo, the sailor scouts were hungry and desperate for sweets! Then, a cake appeared on a silver platter in the distance... the race was on!!! 
+		Who do you think will reach the cake first? If you bet on the right person, you get your money back :)
+		</p>
+
+		<div id = "sailorMoon"></div>
+		<div id = "mars"></div>
+		<div id = "characters"></div>
+		<div id = 'characters2'></div>
+		<input type="button" value="Continue" class ="continue">
+
+
+
+
+	</div>
+
+	<div id = "greyedOut"></div>
+
+
+	<!--register players -->
+	
+
+	<div id="register">
+		
+
+		<form>
+			<label>Username</label>
+			<input type="text" name="username" id = 'user'>
+			<br>
+			<button id = "addMe" type="button" class="betButton" style="margin-bottom:0px!important;">Register</button>
+		</form>
+		</div>
+
+
+		<div id ="players">
+
+			<table class = "table">
+				<tr>
+			<th>Player</th>
+			<th>Wallet</th>
+			<th>Bet on</th>
+			<th>Bet amount</th>
+				</tr>
+
+
+			</table>
+
+			<input type="button" name="showProfiles" id = 'showButton' value="Bet on Characters" class="betButton" style="margin-bottom:0px!important; margin-top: 20px;">
+
+
+			
+
+
+		</div>
+
+
+
+
+
+
+		<div id = "profiles">
+
+			<input type="button" name="exitProfiles" value="Leave Characters" id = "exitProfiles" style="margin-top: -0px">
+			
+			<div id = 'moonProfile'>
+				
+				<img src="images/moon1.png" id = "moon1">
+				<img src="images/moon2.png" id = "moon2">
+
+				<h3>Sailor Moon</h3>
+				<p>"In the name of the Moon, I will punish you!"</p>
+				<input type="button" name="moonPick" value="Bet On Me!" class = "betButton">
+
+				<div id = 'betMoon'>
+				<h3 style="text-align: center;">Bet Sailor Moon!</h3>
+				<input type="text" name="moonplayerBetting" id = 'playerBet' placeholder="Username" style=" display: block; margin: 0 auto;" ><br>
+				<input type="text" name="moonamount" id = 'amount' placeholder="Amount (no '$' sign)" style=" display: block; margin: 0 auto;"><br>
+				<input type="button" name="submitBetMoon" class = 'betButton' value="Submit Bet" style="margin-top: 20px;">
+				<input type="button" name="nevermind" class = 'betButton' value="Never Mind" style="margin-top: 20px;">
+		</div>
+			</div>
+			<div id = 'marsProfile'>
+				<img src="images/mars1.png" id = "mars1">
+				<img src="images/mars2.png" id = "mars2">
+
+				<h3>Sailor Mars</h3>
+				<p>"In the name of Mars, I will chatise you!"</p>
+				<input type="button" name="marsPick" value="Bet On Me!" class = "betButton">
+			
+				<div id = 'betMars'>
+					<h3 style="text-align: center;">Bet Sailor Mars!</h3>
+					<input type="text" name="marsplayerBetting" id = 'playerBet' placeholder="Username" style=" display: block; margin: 0 auto;" ><br>
+					<input type="text" name="marsamount" id = 'amount' placeholder="Amount (no '$' sign)" style=" display: block; margin: 0 auto;"><br>
+					<input type="button" name="submitBetMars" class = 'betButton' value="Submit Bet" style="margin-top: 20px;">
+					<input type="button" name="nevermind" class = 'betButton' value="Never Mind" style="margin-top: 20px;">
+				</div>
+
+
+			</div>
+			<div id = 'jupiterProfile'>
+
+				<img src="images/jup1.png" id = "jupiter1">
+				<img src="images/jup2.png" id = "jupiter2">
+
+				<h3>Sailor Jupiter</h3>
+				<p>"I'll fill you with so much regret it'll leave you numb!"</p>
+				<input type="button" name="jupiterPick" value="Bet On Me!" class = "betButton">
+				
+				<div id = 'betJupiter'>
+					<h3 style="text-align: center;">Bet Sailor Jupiter!</h3>
+					<input type="text" name="jupiterplayerBetting" id = 'playerBet' placeholder="Username" style=" display: block; margin: 0 auto;" ><br>
+					<input type="text" name="jupiteramount" id = 'amount' placeholder="Amount (no '$' sign)" style=" display: block; margin: 0 auto;"><br>
+					<input type="button" name="submitBetJupiter" class = 'betButton' value="Submit Bet" style="margin-top: 20px;">
+					<input type="button" name="nevermind" class = 'betButton' value="Never Mind" style="margin-top: 20px;">
+				</div>
+
+			</div>
+			
+			<div id = 'venusProfile' class="scoot">
+				<img src="images/venus1.png" id = "venus1">
+				<img src="images/venus2.png" id = "venus2">
+
+				<h3>Sailor Venus</h3>
+				<p>"Allow me to punish you with the power of Love!"</p>
+				<input type="button" name="venusPick" value="Bet On Me!" class = "betButton">
+				<div id = 'betVenus'>
+					<h3 style="text-align: center;">Bet Sailor Venus!</h3>
+					<input type="text" name="venusplayerBetting" id = 'playerBet' placeholder="Username" style=" display: block; margin: 0 auto;" ><br>
+					<input type="text" name="venusamount" id = 'amount' placeholder="Amount (no '$' sign)" style=" display: block; margin: 0 auto;"><br>
+					<input type="button" name="submitBetVenus" class = 'betButton' value="Submit Bet" style="margin-top: 20px;">
+					<input type="button" name="nevermind" class = 'betButton' value="Never Mind" style="margin-top: 20px;">
+				</div>	
+			</div>
+			<div id = 'mercuryProfile'>
+				<img src="images/merc1.png" id = "mercury1">
+				<img src="images/merc2.png" id = "mercury2">
+				<h3>Sailor Mercury</h3>
+				<p>"Douse yourself in water and repent!"</p>
+				<input type="button" name="mercuryPick" value="Bet On Me!" class = "betButton">
+				<div id = 'betMercury'>
+					<h3 style="text-align: center;">Bet Sailor Mercury!</h3>
+					<input type="text" name="mercuryplayerBetting" id = 'playerBet' placeholder="Username" style=" display: block; margin: 0 auto;" ><br>
+					<input type="text" name="mercuryamount" id = 'amount' placeholder="Amount (no '$' sign)" style=" display: block; margin: 0 auto;"><br>
+					<input type="button" name="submitBetMercury" class = 'betButton' value="Submit Bet" style="margin-top: 20px;">
+					<input type="button" name="nevermind" class = 'betButton' value="Never Mind" style="margin-top: 20px;">
+				</div>
+
+			</div>
+
+
+		</div>
+
+	
+
+	
+	
+
+
+	
+
+	<div id = raceShow>
+		<div id = 'canvas'">
+	
+		<canvas id = "myCanvas" width="900" height="625"></canvas>
+
+
+		</div>
+	
+	<div id= 'emptyWin'>
+		<h3> Winner</h3>
+		<img src="images/mystery.png" id = 'mysteryscout'>
+		<h2>Unknown</h2>
+		
+	</div>
+	<div id = "moonWin">
+		<h3> Winner</h3>
+				<img src="images/victory_poses/moon1.png" id = "victorymoon1">
+				<img src="images/victory_poses/moon2.png" id = "victorymoon2">
+
+		<h2>Sailor Moon</h2>
+		<p>Results:</p>
+		<table class = "results"></table>
+		<input type="button" name="home" value="Return Home" class="betButton">
+
+	</div>
+	<div id = "marsWin">
+		<h3> Winner</h3>
+				<img src="images/victory_poses/mars1.png" id = "victorymars1">
+				<img src="images/victory_poses/mars2.png" id = "victorymars2">
+
+		<h2>Sailor Mars</h2>
+		<p>Results:</p>
+		<table class = "results"></table>
+		<input type="button" name="home" value="Return Home" class="betButton">
+	</div>
+	<div id = "mercuryWin">
+		<h3> Winner</h3>
+				<img src="images/victory_poses/merc1.png" id = "victorymercury1">
+				<img src="images/victory_poses/merc2.png" id = "victorymercury2">
+
+		<h2>Sailor Mercury</h2>
+		<p>Results:</p>
+		<table class = "results"></table>
+		<input type="button" name="home" value="return Home">
+	</div>
+	<div id = "venusWin">
+		<h3> Winner</h3>
+				<img src="images/victory_poses/venus1.png" id = "victoryvenus1">
+				<img src="images/victory_poses/venus2.png" id = "victoryvenus2">
+
+		<h2>Sailor Venus</h2>
+		<p>Results:</p>
+		<table class = "results"></table>
+		<input type="button" name="home" value="Return Home" class="betButton">
+	</div>
+	<div id = "jupiterWin">
+		<h3> Winner</h3>
+					<img src="images/victory_poses/jup1.png" id = "victoryjupiter1">
+					<img src="images/victory_poses/jup2.png" id = "victoryjupiter2">
+
+			<h2>Sailor Jupiter</h2>
+			<p>Results:</p>
+			<table class = "results"></table>
+			<input type="button" name="home" value="Return Home" class="betButton">
+
+	</div>
+
+	<script type="text/javascript" src = "jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src = "spriteanimation.min.js"></script>
+	<script type="text/javascript" src = "js/script.js"></script>
+	
+	
+
+
+
+
+	
+
+
+
+
+
+</body>
+</html>
